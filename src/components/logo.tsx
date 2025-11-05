@@ -24,12 +24,9 @@ const Logo = ({ className, ...props }: SVGProps<SVGSVGElement>) => (
     <path d="M20 12h2" />
     <path d="m4.93 19.07 1.41-1.41" />
     <path d="m17.66 6.34 1.41-1.41" />
-    <path
-      d="M12 12.5 10 9.5h4l-2 3Z"
-      transform="translate(0 -2)"
-      fill="hsl(var(--primary))"
-    />
-    <path d="M12 6.5v3" transform="translate(0 -2)" />
+    {/* Up Arrow for True North */}
+    <path d="M12 6.5v6" fill="hsl(var(--primary))" />
+    <path d="m10 9.5 2-3 2 3" fill="hsl(var(--primary))" />
   </svg>
 );
 
