@@ -15,7 +15,6 @@ const Logo = ({ className, ...props }: SVGProps<SVGSVGElement>) => (
   >
     <title>True North Hauling Logo</title>
     <path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16z" />
-    <path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
     <path d="M12 2v2" />
     <path d="M12 20v2" />
     <path d="m4.93 4.93 1.41 1.41" />
@@ -25,8 +24,8 @@ const Logo = ({ className, ...props }: SVGProps<SVGSVGElement>) => (
     <path d="m4.93 19.07 1.41-1.41" />
     <path d="m17.66 6.34 1.41-1.41" />
     {/* Up Arrow for True North */}
-    <path d="M12 6.5v6" fill="hsl(var(--primary))" />
-    <path d="m10 9.5 2-3 2 3" fill="hsl(var(--primary))" />
+    <path d="M12 7v6" fill="hsl(var(--primary))" strokeWidth="0" />
+    <path d="m10 10 2-3 2 3" fill="hsl(var(--primary))" strokeWidth="0"/>
   </svg>
 );
 
