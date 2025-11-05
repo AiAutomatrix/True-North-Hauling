@@ -7,7 +7,7 @@ import { useIsMobile } from "@/hooks/use-mobile";
 import Logo from "@/components/logo";
 import { Button } from "@/components/ui/button";
 
-const phoneNumber = "204-555-0123";
+const phoneNumber = "204-960-0090";
 
 export default function Header() {
   const isMobile = useIsMobile();
