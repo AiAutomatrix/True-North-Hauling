@@ -39,8 +39,6 @@ export default function Gallery() {
             align: "start",
             loop: true,
           }}
-          onMouseEnter={plugin.current.stop}
-          onMouseLeave={() => plugin.current.play(true)}
           className="w-full max-w-6xl mx-auto mt-12"
         >
           <CarouselContent>
