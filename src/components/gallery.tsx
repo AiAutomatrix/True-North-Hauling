@@ -26,7 +26,7 @@ export default function Gallery() {
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl">
-              <span className="text-accent text-outline">Cash</span>
+              <span className="text-accent">Cash</span>
               <span className="bg-gradient-to-r from-accent to-emerald-800 bg-clip-text text-transparent"> for Clunkers, Converters, & </span>
               <span className="text-foreground text-glow-accent">Commercial Rigs</span>
             </h2>
