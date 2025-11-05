@@ -22,8 +22,7 @@ export default function Header() {
           <nav className="flex items-center space-x-2">
             <Button asChild className="text-base font-semibold bg-accent text-accent-foreground hover:bg-accent/90">
               <a href={`tel:${phoneNumber.replace(/-/g, "")}`} className="flex items-center gap-2">
-                <span className="font-bold sm:hidden">Call</span>
-                <span className="font-bold hidden sm:inline-block">Call Now!</span>
+                <span className="font-bold">Call Now!</span>
                 <Phone className="h-4 w-4" />
                 <span className="hidden sm:inline-block">{phoneNumber}</span>
               </a>
