@@ -27,7 +27,6 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 import { Calendar } from "@/components/ui/calendar";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
-import { Textarea } from "./ui/textarea";
 
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
@@ -148,7 +147,7 @@ Preferred Viewing: ${format(data.preferredDate, "PPP")} at ${data.preferredTime}
                 </FormItem>
               )} />
               <FormField control={form.control} name="preferredTime" render={({ field }) => (
-                <FormItem><FormLabel>Preferred Time</FormLabel><FormControl><Input placeholder="e.g., Afternoon, around 2 PM" {...field} /></FormControl><FormMessage /></FormItem>
+                <FormItem><FormLabel>Preferred Time</FormLabel><FormControl><Input type="time" placeholder="e.g., Afternoon, around 2 PM" {...field} /></FormControl><FormMessage /></FormItem>
               )} />
               <Button type="submit" className="w-full sm:col-span-2 bg-accent text-accent-foreground hover:bg-accent/90 focus-visible:ring-ring">
                 Submit Request <Send className="ml-2 h-4 w-4" />
