@@ -17,7 +17,7 @@ export default function Gallery() {
   const galleryImages = PlaceHolderImages.filter(p => p.id.startsWith("gallery-"));
 
   const plugin = React.useRef(
-    Autoplay({ delay: 4000, stopOnInteraction: true, stopOnMouseEnter: true })
+    Autoplay({ delay: 4000, stopOnInteraction: false, stopOnMouseEnter: true })
   );
 
   return (
@@ -39,6 +39,8 @@ export default function Gallery() {
             align: "start",
             loop: true,
           }}
+          onMouseEnter={plugin.current.stop}
+          onMouseLeave={plugin.current.reset}
           className="w-full max-w-6xl mx-auto mt-12"
         >
           <CarouselContent>
