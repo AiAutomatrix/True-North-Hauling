@@ -23,6 +23,8 @@ export default function RootLayout({
       <body className="font-body antialiased">
         {children}
         <Toaster />
+        <script src="https://cdn.botpress.cloud/webchat/v3.3/inject.js"></script>
+        <script src="https://files.bpcontent.cloud/2025/11/05/22/20251105221411-X6KF1L25.js" defer></script>
       </body>
     </html>
   );
