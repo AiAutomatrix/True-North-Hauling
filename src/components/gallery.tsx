@@ -25,8 +25,8 @@ export default function Gallery() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
-              <span className="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">Cash</span> for Clunkers, Converters, & <span className="text-glow text-primary">Commercial Rigs</span>
+            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl">
+              <span className="text-accent">Cash</span> for Clunkers, Converters, & <span className="text-glow bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">Commercial Rigs</span>
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Got a junk car, used catalytic converter, or a semi-trailer collecting dust? We pay top dollar and haul it away. Turn your unwanted metal into instant cash today.
@@ -39,8 +39,8 @@ export default function Gallery() {
             align: "start",
             loop: true,
           }}
-          onMouseEnter={plugin.current.stop}
-          onMouseLeave={plugin.current.reset}
+          onMouseEnter={() => plugin.current.stop()}
+          onMouseLeave={() => plugin.current.play()}
           className="w-full max-w-6xl mx-auto mt-12"
         >
           <CarouselContent>
