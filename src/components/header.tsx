@@ -23,8 +23,8 @@ export default function Header() {
         </Link>
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center space-x-2">
-            {isMobile !== undefined && (
-              isMobile ? (
+            {isMobile !== undefined &&
+              (isMobile ? (
                 <Button asChild size="icon" className="rounded-full bg-accent text-accent-foreground hover:bg-accent/90">
                   <a href={`tel:${phoneNumber.replace(/-/g, "")}`}>
                     <Phone className="h-5 w-5" />
@@ -34,12 +34,12 @@ export default function Header() {
               ) : (
                 <Button asChild variant="ghost" className="text-base font-semibold text-primary hover:text-primary hover:bg-primary/10">
                   <a href={`tel:${phoneNumber.replace(/-/g, "")}`} className="flex items-center gap-2">
+                    <span className="font-bold">Call Now!</span>
                     <Phone className="h-4 w-4" />
                     {phoneNumber}
                   </a>
                 </Button>
-              )
-            )}
+              ))}
           </nav>
         </div>
       </div>
