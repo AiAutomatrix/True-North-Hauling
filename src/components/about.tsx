@@ -44,7 +44,7 @@ export default function About() {
                 {service.icon}
               </div>
               <div className="space-y-1">
-                <h3 className="text-xl font-bold font-headline">{service.title}</h3>
+                <h3 className="text-xl font-bold font-headline text-foreground">{service.title}</h3>
                 <p className="text-muted-foreground">{service.description}</p>
               </div>
             </div>

@@ -27,7 +27,7 @@ const Logo = ({ className, ...props }: SVGProps<SVGSVGElement>) => (
     <path
       d="M12 12.5 10 9.5h4l-2 3Z"
       transform="translate(0 -2)"
-      fill="currentColor"
+      fill="hsl(var(--primary))"
     />
     <path d="M12 6.5v3" transform="translate(0 -2)" />
   </svg>

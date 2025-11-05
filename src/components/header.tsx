@@ -16,8 +16,8 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 max-w-7xl items-center">
         <Link href="/" className="mr-6 flex items-center space-x-2">
-          <Logo className="h-7 w-7" />
-          <span className="hidden font-headline text-xl font-bold text-primary sm:inline-block">
+          <Logo className="h-7 w-7 text-primary" />
+          <span className="hidden font-headline text-xl font-bold text-foreground sm:inline-block">
             True North Hauling
           </span>
         </Link>

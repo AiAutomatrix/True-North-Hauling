@@ -39,7 +39,7 @@ export default function Gallery() {
             {galleryImages.map((image) => (
               <CarouselItem key={image.id} className="md:basis-1/2 lg:basis-1/3">
                 <div className="p-1">
-                  <Card className="overflow-hidden rounded-lg">
+                  <Card className="overflow-hidden rounded-lg bg-secondary">
                     <CardContent className="flex aspect-[4/3] items-center justify-center p-0">
                       <Image
                         src={image.imageUrl}
