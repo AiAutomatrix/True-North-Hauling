@@ -9,7 +9,7 @@ import Footer from '@/components/footer';
 
 export default function Home() {
   return (
-    <div className="flex min-h-dvh flex-col bg-background bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+    <div className="flex min-h-dvh flex-col bg-background bg-gradient-to-br from-background to-secondary/10">
       <Header />
       <main className="flex-1">
         <Gallery />
