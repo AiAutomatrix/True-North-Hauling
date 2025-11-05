@@ -1,6 +1,8 @@
 "use client";
 
+import * as React from "react";
 import Image from "next/image";
+import Autoplay from "embla-carousel-autoplay";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import {
   Carousel,
@@ -13,6 +15,10 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export default function Gallery() {
   const galleryImages = PlaceHolderImages.filter(p => p.id.startsWith("gallery-"));
+
+  const plugin = React.useRef(
+    Autoplay({ delay: 3000, stopOnInteraction: true, stopOnMouseEnter: true })
+  );
 
   return (
     <section id="gallery" className="w-full py-12 md:py-24 lg:py-32">
@@ -28,10 +34,13 @@ export default function Gallery() {
           </div>
         </div>
         <Carousel
+          plugins={[plugin.current]}
           opts={{
             align: "start",
             loop: true,
           }}
+          onMouseEnter={plugin.current.stop}
+          onMouseLeave={() => plugin.current.play(true)}
           className="w-full max-w-6xl mx-auto mt-12"
         >
           <CarouselContent>
