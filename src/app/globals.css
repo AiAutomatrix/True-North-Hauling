@@ -4,28 +4,28 @@
 
 @layer base {
   :root {
-    --background: 220 20% 12%; /* Dark Slate */
-    --foreground: 45 30% 95%; /* Off-white */
-    --card: 220 20% 17%; /* Darker Slate */
-    --card-foreground: 45 30% 95%;
-    --popover: 220 20% 12%;
-    --popover-foreground: 45 30% 95%;
-    --primary: 35 90% 55%; /* Bright Amber/Orange */
-    --primary-foreground: 220 20% 12%;
-    --secondary: 220 15% 25%; /* Mid Slate */
-    --secondary-foreground: 45 30% 95%;
-    --muted: 220 15% 30%; /* Lighter Slate */
-    --muted-foreground: 220 10% 65%;
-    --accent: 80 60% 60%; /* Hi-vis Olive/Lime */
-    --accent-foreground: 220 20% 12%;
-    --destructive: 0 63% 40%;
-    --destructive-foreground: 45 30% 95%;
-    --border: 220 15% 35%;
-    --input: 220 15% 35%;
-    --ring: 35 90% 55%;
-    --chart-1: 35 90% 55%;
-    --chart-2: 80 60% 60%;
-    --chart-3: 210 30% 60%;
+    --background: 35 40% 96%; /* Very Light Tan */
+    --foreground: 35 15% 20%; /* Dark Brown */
+    --card: 35 40% 100%; /* White */
+    --card-foreground: 35 15% 20%;
+    --popover: 35 40% 100%;
+    --popover-foreground: 35 15% 20%;
+    --primary: 35 75% 45%; /* Deep Amber */
+    --primary-foreground: 35 40% 98%;
+    --secondary: 90 20% 88%; /* Muted Sage */
+    --secondary-foreground: 35 15% 20%;
+    --muted: 90 20% 94%; /* Lighter Sage */
+    --muted-foreground: 35 10% 45%;
+    --accent: 80 50% 50%; /* Olive Green */
+    --accent-foreground: 35 15% 15%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 35 40% 98%;
+    --border: 35 20% 80%;
+    --input: 35 20% 80%;
+    --ring: 35 75% 45%;
+    --chart-1: 35 75% 45%;
+    --chart-2: 80 50% 50%;
+    --chart-3: 210 50% 60%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
