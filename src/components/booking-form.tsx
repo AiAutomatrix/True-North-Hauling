@@ -41,7 +41,7 @@ const formSchema = z.object({
 
 type FormData = z.infer<typeof formSchema>;
 
-const businessEmail = "contact@truenorthhauling.example"; 
+const businessEmail = "brandonfriesen1995@gmail.com"; 
 
 export default function BookingForm() {
   const { toast } = useToast();
