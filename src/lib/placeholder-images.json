@@ -3,32 +3,44 @@
     {
       "id": "gallery-1",
       "description": "A flatbed tow truck ready for hauling.",
-      "imageUrl": "https://images.unsplash.com/photo-1616728827388-84563c099b29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0b3clMjB0cnVja3xlbnwwfHx8fDE3NjIzNTY1NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/haul1.png",
       "imageHint": "tow truck"
     },
     {
       "id": "gallery-2",
       "description": "A collection of scrap cars ready for recycling.",
-      "imageUrl": "https://images.unsplash.com/photo-1759240156977-ceac1f6a2c3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzY3JhcCUyMGNhcnN8ZW58MHx8fHwxNzYyMzYwNzE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/haul2.png",
       "imageHint": "scrap cars"
     },
     {
       "id": "gallery-3",
       "description": "A used car that has been purchased for resale.",
-      "imageUrl": "https://images.unsplash.com/photo-1703597803465-20f393f84e0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyZXNhbGUlMjB2ZWhpY2xlfGVufDB8fHx8MTc2MjM2MDcxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/haul3.png",
       "imageHint": "resale vehicle"
     },
     {
       "id": "gallery-4",
       "description": "Another view of a tow truck in action.",
-      "imageUrl": "https://images.unsplash.com/photo-1674886702026-471e83ca8d47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx0b3clMjB0cnVjayUyMGFjdGlvbnxlbnwwfHx8fDE3NjIzNjA3MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/haul4.png",
       "imageHint": "tow truck action"
     },
     {
       "id": "gallery-5",
       "description": "Close-up of a vehicle being prepared for hauling.",
-      "imageUrl": "https://images.unsplash.com/photo-1640504409924-085665a1f385?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dmVoaWNsZSUyMGhhdWxpbmd8ZW58MHx8fHwxNzYyMzYwNzE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/haul5.png",
       "imageHint": "vehicle hauling"
+    },
+    {
+      "id": "gallery-6",
+      "description": "View of a semi-trailer ready for hauling.",
+      "imageUrl": "/haul6.png",
+      "imageHint": "semi trailer"
+    },
+    {
+      "id": "gallery-7",
+      "description": "Scrap vehicle being loaded onto a truck.",
+      "imageUrl": "/haul7.png",
+      "imageHint": "scrap loading"
     }
   ]
 }
