@@ -9,7 +9,7 @@ export default function HowItWorks() {
           <Card className="flex flex-col">
             <CardHeader className="flex flex-row items-center gap-4 pb-4">
               <ListChecks className="w-8 h-8 text-accent" />
-              <CardTitle className="font-headline text-primary">How It Works</CardTitle>
+              <CardTitle className="font-headline text-accent">How It Works</CardTitle>
             </CardHeader>
             <CardContent className="flex-grow">
               <ol className="list-decimal list-inside space-y-2 text-muted-foreground">
@@ -24,7 +24,7 @@ export default function HowItWorks() {
           <Card className="flex flex-col">
             <CardHeader className="flex flex-row items-center gap-4 pb-4">
               <Package className="w-8 h-8 text-accent" />
-              <CardTitle className="font-headline text-primary">What We Buy</CardTitle>
+              <CardTitle className="font-headline text-accent">What We Buy</CardTitle>
             </CardHeader>
             <CardContent className="flex-grow">
               <ul className="list-disc list-inside space-y-2 text-muted-foreground">
@@ -39,7 +39,7 @@ export default function HowItWorks() {
           <Card className="flex flex-col">
             <CardHeader className="flex flex-row items-center gap-4 pb-4">
               <MapPin className="w-8 h-8 text-accent" />
-              <CardTitle className="font-headline text-primary">Our Coverage</CardTitle>
+              <CardTitle className="font-headline text-accent">Our Coverage</CardTitle>
             </CardHeader>
             <CardContent className="flex-grow">
               <p className="text-muted-foreground">
