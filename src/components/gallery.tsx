@@ -20,11 +20,10 @@ export default function Gallery() {
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
-              Your Vehicle, Our Priority
+              Cash for Clunkers, Converters, & Commercial Rigs
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              From classic cars to scrap metal, we handle every vehicle with professional care.
-              Browse our gallery to see our fleet and recent jobs.
+              Got a junk car, used catalytic converter, or a semi-trailer collecting dust? We pay top dollar and haul it away. Turn your unwanted metal into instant cash today.
             </p>
           </div>
         </div>
