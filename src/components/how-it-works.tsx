@@ -24,7 +24,7 @@ export default function HowItWorks() {
           <Card className="flex flex-col">
             <CardHeader className="flex flex-row items-center gap-4 pb-4">
               <Package className="w-8 h-8 text-accent" />
-              <CardTitle className="font-headline text-accent">What We Buy</CardTitle>
+              <CardTitle className="font-headline text-foreground">What We Buy</CardTitle>
             </CardHeader>
             <CardContent className="flex-grow">
               <ul className="list-disc list-inside space-y-2 text-muted-foreground">
