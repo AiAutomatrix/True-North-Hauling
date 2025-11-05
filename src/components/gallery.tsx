@@ -17,14 +17,17 @@ export default function Gallery() {
   const galleryImages = PlaceHolderImages.filter(p => p.id.startsWith("gallery-"));
 
   const plugin = React.useRef(
-    Autoplay({ delay: 4000, stopOnInteraction: false, stopOnMouseEnter: true })
+    Autoplay({ delay: 4000, stopOnInteraction: true, stopOnMouseEnter: true })
   );
 
   return (
     <section id="gallery" className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <div className="space-y-2">
+          <div className="space-y-4">
+            <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-6xl text-foreground">
+              TRUE NORTH HAULING
+            </h1>
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl">
               <span className="text-accent">Cash</span>
               <span className="bg-gradient-to-r from-accent to-emerald-800 bg-clip-text text-transparent"> for Clunkers, Converters, & </span>
@@ -41,8 +44,8 @@ export default function Gallery() {
             align: "start",
             loop: true,
           }}
-          onMouseEnter={() => plugin.current.stop()}
-          onMouseLeave={() => plugin.current.play()}
+          onMouseEnter={plugin.current.stop}
+          onMouseLeave={plugin.current.play}
           className="w-full max-w-6xl mx-auto mt-12"
         >
           <CarouselContent>
