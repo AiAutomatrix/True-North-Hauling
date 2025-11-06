@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ListChecks, Package, MapPin } from "lucide-react";
+import Image from "next/image";
 
 export default function HowItWorks() {
   return (
@@ -19,6 +20,13 @@ export default function HowItWorks() {
                 <li>Get paid instantly upon agreement.</li>
                 <li>We handle all paperwork and hauling.</li>
               </ol>
+              <Image
+                alt="how our process works"
+                className="rounded-lg mt-4"
+                height={400}
+                src="/steps1.png"
+                width={800}
+              />
             </CardContent>
           </Card>
           <Card className="flex flex-col">
