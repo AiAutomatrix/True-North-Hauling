@@ -3,8 +3,42 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'True North Hauling',
-  description: 'Family-run vehicle hauling, purchasing, and scrap services in Winnipeg, MB.',
+  title: 'True North Hauling | Cash for Cars & Scrap Removal in Winnipeg, MB',
+  description: 'Get top cash for your junk car, truck, or van in Winnipeg, Manitoba. True North Hauling offers fast, free vehicle hauling, scrap car removal, and vehicle purchasing services. Family-run, fair deals, and instant payment.',
+  keywords: 'cash for cars, scrap car removal, junk car, vehicle hauling, car buying, Winnipeg, Manitoba, tow truck, flatbed service, catalytic converter recycling, commercial hauling',
+  openGraph: {
+    title: 'True North Hauling | Cash for Cars & Scrap Removal in Winnipeg, MB',
+    description: 'We pay top dollar for junk cars, scrap vehicles, and used catalytic converters in Winnipeg.',
+    url: 'https://your-website-url.com', // Replace with your actual domain
+    siteName: 'True North Hauling',
+    images: [
+      {
+        url: '/haul1.png', // Main image for sharing
+        width: 1200,
+        height: 630,
+        alt: 'A flatbed tow truck ready for hauling a vehicle.',
+      },
+    ],
+    locale: 'en_CA',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'True North Hauling | Cash for Cars & Scrap Removal in Winnipeg, MB',
+    description: 'Fast cash for your junk cars and scrap metal in Winnipeg. Contact us for a free quote!',
+    images: ['/haul1.png'], // Main image for Twitter card
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({
