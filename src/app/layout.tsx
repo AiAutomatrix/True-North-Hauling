@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'True North Hauling | Cash for Cars & Scrap Removal in Winnipeg, MB',
     description: 'We pay top dollar for junk cars, scrap vehicles, and used catalytic converters in Winnipeg.',
-    url: 'https://your-website-url.com', // Replace with your actual domain
+    url: 'https://true-north-hauling.vercel.app/',
     siteName: 'True North Hauling',
     images: [
       {
