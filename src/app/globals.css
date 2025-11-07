@@ -82,4 +82,16 @@
       -1px 1px 0 hsl(var(--foreground) / 0.8),
       1px 1px 0 hsl(var(--foreground) / 0.8);
   }
+  .glass-toast {
+    background-color: hsl(var(--accent) / 0.2);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid hsl(var(--accent) / 0.1);
+    color: hsl(var(--foreground));
+  }
+  .dark .glass-toast {
+    background-color: hsl(var(--accent) / 0.1);
+    border: 1px solid hsl(var(--accent) / 0.2);
+    color: hsl(var(--foreground));
+  }
 }

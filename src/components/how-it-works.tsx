@@ -48,7 +48,7 @@ export default function HowItWorks() {
                 alt="what we buy"
                 className="rounded-lg mt-4"
                 height={400}
-                src="/weBuy.png"
+                src="/weBuy1.png"
                 width={800}
               />
             </CardContent>
