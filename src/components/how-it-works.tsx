@@ -39,6 +39,8 @@ export default function HowItWorks() {
                 <li>Cars, trucks, SUVs, and vans</li>
                 <li>Vehicles in any condition</li>
                 <li>Scrap and junk vehicles</li>
+                <li>Catalytic converters</li>
+                <li>Semi-trailers</li>
                 <li>Farm equipment (case-by-case)</li>
                 <li>Some industrial machinery</li>
               </ul>
