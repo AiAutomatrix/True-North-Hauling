@@ -20,6 +20,8 @@ export default function HowItWorks() {
                 <li>Get paid instantly upon agreement.</li>
                 <li>We handle all paperwork and hauling.</li>
               </ol>
+            </CardContent>
+            <CardContent>
               <Image
                 alt="how our process works"
                 className="rounded-lg mt-4"
@@ -44,6 +46,8 @@ export default function HowItWorks() {
                 <li>Farm equipment (case-by-case)</li>
                 <li>Some industrial machinery</li>
               </ul>
+            </CardContent>
+            <CardContent>
               <Image
                 alt="what we buy"
                 className="rounded-lg mt-4"
@@ -62,6 +66,8 @@ export default function HowItWorks() {
               <p className="text-muted-foreground">
                 We proudly serve Winnipeg, Manitoba, and surrounding rural municipalities. Contact us to confirm service in your specific area. We offer flexible pickup options.
               </p>
+            </CardContent>
+            <CardContent>
               <Image
                 alt="map of our coverage area"
                 className="rounded-lg mt-4"
