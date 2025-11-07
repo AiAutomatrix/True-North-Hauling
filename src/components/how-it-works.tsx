@@ -42,6 +42,13 @@ export default function HowItWorks() {
                 <li>Farm equipment (case-by-case)</li>
                 <li>Some industrial machinery</li>
               </ul>
+              <Image
+                alt="what we buy"
+                className="rounded-lg mt-4"
+                height={400}
+                src="/weBuy.png"
+                width={800}
+              />
             </CardContent>
           </Card>
           <Card className="flex flex-col">
