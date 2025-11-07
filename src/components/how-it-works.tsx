@@ -62,6 +62,13 @@ export default function HowItWorks() {
               <p className="text-muted-foreground">
                 We proudly serve Winnipeg, Manitoba, and surrounding rural municipalities. Contact us to confirm service in your specific area. We offer flexible pickup options.
               </p>
+              <Image
+                alt="map of our coverage area"
+                className="rounded-lg mt-4"
+                height={400}
+                src="/converage.png"
+                width={800}
+              />
             </CardContent>
           </Card>
         </div>
